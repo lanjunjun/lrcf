@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lrcf.iml" filepath="$PROJECT_DIR$/lrcf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-admin/yhb-admin.iml" filepath="$PROJECT_DIR$/yhb-admin/yhb-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-api/yhb-api.iml" filepath="$PROJECT_DIR$/yhb-api/yhb-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-common/yhb-common.iml" filepath="$PROJECT_DIR$/yhb-common/yhb-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-dao/yhb-dao.iml" filepath="$PROJECT_DIR$/yhb-dao/yhb-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-domain/yhb-domain.iml" filepath="$PROJECT_DIR$/yhb-domain/yhb-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-service/yhb-service.iml" filepath="$PROJECT_DIR$/yhb-service/yhb-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-wechat/yhb-wechat.iml" filepath="$PROJECT_DIR$/yhb-wechat/yhb-wechat.iml" />
+    </modules>
+  </component>
+</project>

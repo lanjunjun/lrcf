@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yhb-wechat:war">
+    <output-path>$PROJECT_DIR$/yhb-wechat/target</output-path>
+    <root id="archive" name="yhb-wechat-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="yhb-wechat:war exploded" />
+    </root>
+  </artifact>
+</component>
