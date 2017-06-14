@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/yhb-api/yhb-api.iml" filepath="$PROJECT_DIR$/yhb-api/yhb-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/yhb-common/yhb-common.iml" filepath="$PROJECT_DIR$/yhb-common/yhb-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/yhb-dao/yhb-dao.iml" filepath="$PROJECT_DIR$/yhb-dao/yhb-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-pojo/yhb-pojo.iml" filepath="$PROJECT_DIR$/yhb-pojo/yhb-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/yhb-service/yhb-service.iml" filepath="$PROJECT_DIR$/yhb-service/yhb-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/yhb-wechat/yhb-wechat.iml" filepath="$PROJECT_DIR$/yhb-wechat/yhb-wechat.iml" />
     </modules>

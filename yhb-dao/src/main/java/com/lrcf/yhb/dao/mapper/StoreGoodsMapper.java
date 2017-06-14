@@ -1,6 +1,7 @@
 package com.lrcf.yhb.dao.mapper;
 
-import com.lrcf.yhb.dao.model.StoreGoods;
+import com.lrcf.yhb.pojo.StoreGoods;
+
 import java.util.List;
 
 public interface StoreGoodsMapper {

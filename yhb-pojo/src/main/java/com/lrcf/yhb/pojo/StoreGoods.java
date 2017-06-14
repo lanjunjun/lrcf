@@ -1,4 +1,4 @@
-package com.lrcf.yhb.dao.model;
+package com.lrcf.yhb.pojo;
 
 import java.util.Date;
 

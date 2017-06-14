@@ -1,6 +1,6 @@
 package com.lrcf.yhb.dao.mapper;
 
-import com.lrcf.yhb.dao.model.AccountsUsers;
+import com.lrcf.yhb.pojo.AccountsUsers;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

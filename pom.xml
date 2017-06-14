@@ -21,6 +21,7 @@
     <module>yhb-common</module>
     <module>yhb-admin</module>
     <module>yhb-wechat</module>
+      <module>yhb-pojo</module>
   </modules>
 
   <properties>

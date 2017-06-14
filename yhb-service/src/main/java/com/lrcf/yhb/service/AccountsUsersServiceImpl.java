@@ -2,7 +2,7 @@ package com.lrcf.yhb.service;
 
 import com.lrcf.yhb.api.AccountsUsersService;
 import com.lrcf.yhb.dao.mapper.AccountsUsersMapper;
-import com.lrcf.yhb.dao.model.AccountsUsers;
+import com.lrcf.yhb.pojo.AccountsUsers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +18,11 @@ public class AccountsUsersServiceImpl implements AccountsUsersService {
 
     @Override
     public AccountsUsers getUserInfoByPhone(String phone) {
-        return accountsUsersMapper.selectByPrimaryKey("xxx");
+        return accountsUsersMapper.selectByPrimaryKey(phone);
+    }
+
+    @Override
+    public AccountsUsers getUserByUserId(String userId) {
+        return accountsUsersMapper.selectByPrimaryKey(userId);
     }
 }

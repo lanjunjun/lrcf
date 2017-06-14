@@ -10,6 +10,7 @@
         <module name="yhb-api" />
         <module name="yhb-common" />
         <module name="yhb-dao" />
+        <module name="yhb-pojo" />
         <module name="yhb-service" />
         <module name="yhb-wechat" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="yhb-common" target="1.8" />
       <module name="yhb-dao" target="1.8" />
       <module name="yhb-domain" target="1.8" />
+      <module name="yhb-pojo" target="1.8" />
       <module name="yhb-service" target="1.8" />
       <module name="yhb-wechat" target="1.8" />
     </bytecodeTargetLevel>

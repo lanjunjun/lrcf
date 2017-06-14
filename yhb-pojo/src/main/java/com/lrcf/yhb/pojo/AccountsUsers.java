@@ -1,4 +1,4 @@
-package com.lrcf.yhb.dao.model;
+package com.lrcf.yhb.pojo;
 
 import java.math.BigDecimal;
 import java.util.Date;

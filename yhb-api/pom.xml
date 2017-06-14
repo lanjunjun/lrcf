@@ -15,13 +15,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <start-class>com.lrcf.yhb.api.YhbApiApplication</start-class>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.lrcf.yhb.dao</groupId>
-            <artifactId>yhb-dao</artifactId>
+            <groupId>com.lrcf.yhb.pojo</groupId>
+            <artifactId>yhb-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
     </dependencies>
 
@@ -30,6 +35,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                <mainClass>${start-class}</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
