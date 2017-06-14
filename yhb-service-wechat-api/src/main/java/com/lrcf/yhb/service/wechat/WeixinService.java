@@ -11,4 +11,6 @@ public interface WeixinService {
     public WxMpXmlOutMessage route(WxMpXmlMessage message) ;
 
     public boolean hasKefuOnline();
+
+    public String getUserName();
 }

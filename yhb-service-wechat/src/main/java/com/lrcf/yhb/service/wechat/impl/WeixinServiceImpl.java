@@ -20,7 +20,7 @@ import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
 
 
-@Service
+@Service("weixinService")
 public class WeixinServiceImpl extends WxMpServiceImpl implements WeixinService{
 
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -171,4 +171,8 @@ public class WeixinServiceImpl extends WxMpServiceImpl implements WeixinService{
 	    return null;
 	  }
 
+	@Override
+	public String getUserName() {
+		return "lanjunjun";
+	}
 }

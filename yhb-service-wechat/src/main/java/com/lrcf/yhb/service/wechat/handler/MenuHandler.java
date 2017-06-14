@@ -2,14 +2,15 @@ package com.lrcf.yhb.service.wechat.handler;
 
 import java.util.Map;
 
+import com.lrcf.yhb.service.wechat.WeixinService;
+import com.lrcf.yhb.service.wechat.builder.AbstractBuilder;
+import com.lrcf.yhb.service.wechat.builder.ImageBuilder;
+import com.lrcf.yhb.service.wechat.builder.TextBuilder;
+import com.lrcf.yhb.service.wechat.entity.WxMenuKey;
+import com.lrcf.yhb.service.wechat.impl.WeixinServiceImpl;
 import org.springframework.stereotype.Component;
 
 import com.alibaba.fastjson.JSON;
-import com.yhb.weixin.service.WeixinService;
-import com.yhb.weixin.wx.builder.AbstractBuilder;
-import com.yhb.weixin.wx.builder.ImageBuilder;
-import com.yhb.weixin.wx.builder.TextBuilder;
-import com.yhb.weixin.wx.entity.WxMenuKey;
 
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.common.session.WxSessionManager;
