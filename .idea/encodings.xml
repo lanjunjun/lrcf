@@ -8,6 +8,10 @@
     <file url="file://$PROJECT_DIR$/yhb-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yhb-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yhb-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yhb-service-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yhb-service-redis-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yhb-service-wechat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yhb-service-wechat-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yhb-wechat" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

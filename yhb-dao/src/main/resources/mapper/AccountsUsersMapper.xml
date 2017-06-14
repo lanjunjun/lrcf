@@ -52,6 +52,14 @@
     <result column="User_ek2" property="userEk2" jdbcType="LONGVARCHAR" />
     <result column="User_ek3" property="userEk3" jdbcType="LONGVARCHAR" />
   </resultMap>
+  <sql id="Base_Column_List">
+    UserID, UserName, UserPassword, CheckPassword, TrueName, CardID, CompanyName,
+    CompanyAddress, Activity, ParentID, IsAgent, LineCount, IsAuditUser, Style, UserLevel,
+    PayName, PayBank, PayBankAddress, PayBankCardNumber, UserQuestion, UserAnswer, QQ,
+    Telphone, Email, CreateTime, PlatID, OpenMoney, PayFeeUserIn, MaxMoney, RptEmail,
+    IdntfCode, IdntfCodeCrTime, YBalance, IsMember, Ips_Id, Ips_usrCustId, DeviceToken,
+    extractCount, benefitGetFreeTime, Logo, HeadImg, User_ek1, User_ek2, User_ek3
+  </sql>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
     delete from accounts_users
     where UserID = #{userid,jdbcType=CHAR}
@@ -135,16 +143,21 @@
       User_ek3 = #{userEk3,jdbcType=LONGVARCHAR}
     where UserID = #{userid,jdbcType=CHAR}
   </update>
+
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
-    select UserID, UserName, UserPassword, CheckPassword, TrueName, CardID, CompanyName, 
-    CompanyAddress, Activity, ParentID, IsAgent, LineCount, IsAuditUser, Style, UserLevel, 
-    PayName, PayBank, PayBankAddress, PayBankCardNumber, UserQuestion, UserAnswer, QQ, 
-    Telphone, Email, CreateTime, PlatID, OpenMoney, PayFeeUserIn, MaxMoney, RptEmail, 
-    IdntfCode, IdntfCodeCrTime, YBalance, IsMember, Ips_Id, Ips_usrCustId, DeviceToken, 
-    extractCount, benefitGetFreeTime, Logo, HeadImg, User_ek1, User_ek2, User_ek3
+    select
+    <include refid="Base_Column_List"/>
     from accounts_users
     where UserID = #{userid,jdbcType=CHAR}
   </select>
+
+  <select id="selectByUserName" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    <include refid="Base_Column_List"/>
+    from accounts_users
+    where UserName = #{userName,jdbcType=CHAR}
+  </select>
+
   <select id="selectAll" resultMap="BaseResultMap" >
     select UserID, UserName, UserPassword, CheckPassword, TrueName, CardID, CompanyName, 
     CompanyAddress, Activity, ParentID, IsAgent, LineCount, IsAuditUser, Style, UserLevel, 

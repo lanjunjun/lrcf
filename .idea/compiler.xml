@@ -12,6 +12,10 @@
         <module name="yhb-dao" />
         <module name="yhb-pojo" />
         <module name="yhb-service" />
+        <module name="yhb-service-redis" />
+        <module name="yhb-service-redis-api" />
+        <module name="yhb-service-wechat" />
+        <module name="yhb-service-wechat-api" />
         <module name="yhb-wechat" />
       </profile>
     </annotationProcessing>
@@ -24,6 +28,10 @@
       <module name="yhb-domain" target="1.8" />
       <module name="yhb-pojo" target="1.8" />
       <module name="yhb-service" target="1.8" />
+      <module name="yhb-service-redis" target="1.8" />
+      <module name="yhb-service-redis-api" target="1.8" />
+      <module name="yhb-service-wechat" target="1.8" />
+      <module name="yhb-service-wechat-api" target="1.8" />
       <module name="yhb-wechat" target="1.8" />
     </bytecodeTargetLevel>
   </component>

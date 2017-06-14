@@ -22,6 +22,10 @@
     <module>yhb-admin</module>
     <module>yhb-wechat</module>
       <module>yhb-pojo</module>
+      <module>yhb-service-redis</module>
+      <module>yhb-service-redis-api</module>
+      <module>yhb-service-wechat</module>
+      <module>yhb-service-wechat-api</module>
   </modules>
 
   <properties>

@@ -9,6 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/yhb-dao/yhb-dao.iml" filepath="$PROJECT_DIR$/yhb-dao/yhb-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/yhb-pojo/yhb-pojo.iml" filepath="$PROJECT_DIR$/yhb-pojo/yhb-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/yhb-service/yhb-service.iml" filepath="$PROJECT_DIR$/yhb-service/yhb-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-service-redis/yhb-service-redis.iml" filepath="$PROJECT_DIR$/yhb-service-redis/yhb-service-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-service-redis-api/yhb-service-redis-api.iml" filepath="$PROJECT_DIR$/yhb-service-redis-api/yhb-service-redis-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-service-wechat/yhb-service-wechat.iml" filepath="$PROJECT_DIR$/yhb-service-wechat/yhb-service-wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhb-service-wechat-api/yhb-service-wechat-api.iml" filepath="$PROJECT_DIR$/yhb-service-wechat-api/yhb-service-wechat-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/yhb-wechat/yhb-wechat.iml" filepath="$PROJECT_DIR$/yhb-wechat/yhb-wechat.iml" />
     </modules>
   </component>
