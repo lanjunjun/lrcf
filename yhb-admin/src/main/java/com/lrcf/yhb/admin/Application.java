@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ImportResource;
  * Hello world!
  */
 @SpringBootApplication
-@ImportResource({"classpath:dubbo-admin.xml"})
+//@ImportResource({"classpath:dubbo-admin.xml"})
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

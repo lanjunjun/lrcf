@@ -10,7 +10,6 @@
         <module name="yhb-api" />
         <module name="yhb-common" />
         <module name="yhb-dao" />
-        <module name="yhb-domain" />
         <module name="yhb-service" />
         <module name="yhb-wechat" />
       </profile>

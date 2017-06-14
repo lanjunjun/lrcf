@@ -6,4 +6,6 @@ package com.lrcf.yhb.api;
 public interface HelloService {
 
     public String hello(String name);
+
+
 }

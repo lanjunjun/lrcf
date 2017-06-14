@@ -21,7 +21,6 @@
     <module>yhb-common</module>
     <module>yhb-admin</module>
     <module>yhb-wechat</module>
-    <module>yhb-domain</module>
   </modules>
 
   <properties>

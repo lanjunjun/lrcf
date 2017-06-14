@@ -1,5 +1,6 @@
 package com.lrcf.yhb.service;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -15,10 +16,10 @@ import java.util.concurrent.CountDownLatch;
  * Created by Administrator on 2017/6/13.
  */
 @SpringBootApplication
-@ImportResource({"classpath:dubbo-services.xml"})
+//@ImportResource({"classpath:dubbo-services.xml"})
 public class Application {
 
-    //    private static final Logger logger = LoggerFactory.getLogger(Application.class);
+//    private static final Logger logger = LoggerFactory.getLogger(Application.class);
 //
 //    @Bean
 //    public CountDownLatch closeLatch() {

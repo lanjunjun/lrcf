@@ -16,4 +16,6 @@
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service interface="com.lrcf.yhb.api.HelloService"
 		ref="helloService" protocol="dubbo" timeout="100000" retries="0" />
+
+	<dubbo:service interface="com.lrcf.yhb.api.AccountsUsersService" ref="accountsUsersService" />
 </beans>
