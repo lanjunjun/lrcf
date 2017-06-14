@@ -19,7 +19,7 @@ import java.util.concurrent.CountDownLatch;
  */
 @SpringBootApplication
 @ImportResource({"classpath:dubbo-services.xml"})
-@MapperScan(basePackages = { "com.lrcf.yhb.dao.mapper","com.lrcf.yhb.service"})
+@MapperScan(basePackages = { "com.lrcf.yhb.dao.mapper"})
 public class Application {
 
 //    private static final Logger logger = LoggerFactory.getLogger(Application.class);

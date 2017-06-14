@@ -1,4 +1,4 @@
-package com.lrcf.yhb.admin;
+package com.lrcf.yhb.admin.controller;
 
 import com.lrcf.yhb.api.AccountsUsersService;
 import com.lrcf.yhb.api.HelloService;
