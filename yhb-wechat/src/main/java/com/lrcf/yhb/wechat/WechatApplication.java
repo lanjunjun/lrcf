@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ImportResource;
  * Created by Administrator on 2017/6/14.
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.lrcf.yhb.api","com.lrcf.yhb.wechat.controller"})
+@ComponentScan(basePackages = {"com.lrcf.yhb.api","com.lrcf.yhb.wechat.controller","com.lrcf.yhb.wechat"})
 @ImportResource({"classpath:dubbo-wechat.xml"})
 public class WechatApplication {
 
